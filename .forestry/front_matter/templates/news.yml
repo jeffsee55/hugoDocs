@@ -28,3 +28,5 @@ fields:
     min: 
     max: 
   label: categories
+pages:
+- content/en/news/0.55.6-relnotes/index.md
