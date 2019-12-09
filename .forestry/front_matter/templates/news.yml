@@ -2,31 +2,18 @@
 label: News
 hide_body: false
 fields:
-- name: title
-  type: text
-  config:
-    required: false
-  label: title
-- name: date
-  type: datetime
+- type: datetime
+  name: date
   label: date
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
-- name: description
-  type: text
-  config:
-    required: false
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
   label: description
-- name: categories
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
+- type: list
+  name: categories
   label: categories
-pages:
-- content/en/news/0.55.6-relnotes/index.md
+- type: image_gallery
+  name: images
+  label: images
