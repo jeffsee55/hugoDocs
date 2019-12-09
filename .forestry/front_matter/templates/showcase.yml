@@ -41,3 +41,5 @@ fields:
     schema:
       format: markdown
   label: byline
+pages:
+- content/en/showcase/quiply-employee-communications-app/another-deep-subfolder/a-subshowcase-entry.md
