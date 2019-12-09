@@ -6,9 +6,12 @@ webhook_url:
 sections:
 - type: directory
   path: content/en
-  label: En
+  label: English
   create: all
   match: "**/*"
+  templates:
+  - news
+  - showcase
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
