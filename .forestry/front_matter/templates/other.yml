@@ -13,3 +13,4 @@ fields:
   label: Description
 pages:
 - content/en/Hello-world.md
+- content/en/goodbye.md
